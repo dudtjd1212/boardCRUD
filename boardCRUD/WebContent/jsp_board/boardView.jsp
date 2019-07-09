@@ -42,6 +42,7 @@
                 <div>
                     <a href="<%=request.getContextPath()%>/jsp_board/boardModifyForm.jsp?boardNo=<%=boardNo%>">수정</a>
                     <a href="<%=request.getContextPath()%>/jsp_board/boardRemoveForm.jsp?boardNo=<%=boardNo%>">삭제</a>
+                    <a href="<%=request.getContextPath()%>/jsp_board/boardList.jsp?boardNo=<%=boardNo%>">목록으로</a>
                 </div>
 <%          }
         } catch(Exception e) {
